@@ -18,6 +18,7 @@
         background-image: url(../img/mendoza.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
 
     }
 
@@ -142,10 +143,15 @@
 
 aside{
     grid-area: aside;
-    grid-auto-flow: column;
     justify-content: flex-end;
 }
 
+.oferta{
+    width: 400px;
+    height: 600px;
+    margin: 100px 10px;
+    box-shadow: 7px 7px 7px rgb(126, 125, 125);
+}
 
 
 
