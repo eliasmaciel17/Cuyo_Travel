@@ -2,13 +2,16 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuyo Travel | Servicios</title>
-    <link rel="shortcut icon" href="../img/loguito CUYOTRAVEL.jpg" type="image/x-icon">
+    <title>Cuyo Travel</title>
+    <link rel="shortcut icon" href="./img/loguito CUYOTRAVEL.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/CuyoTravel.css">
 </head>
+
 <body>
+    <!--------------------------------------------------- HEADER ---------------------------------------------->
     <header>
         <section class="cabeza__arriba">
             <div class="redes">
@@ -27,35 +30,55 @@
             </ul>
         </section>
     </header>
-    <hr>
 
+    <!----------------------------------------------- MAIN------------------------------------------------>
     <main>
-        <div>
-            <p>Traslado de pasajeros: brindamos el servicio de traslados de pasajeros a puntos específicos, así como también el retiro y traslado de los mismos al Aeropuerto y Terminal de Ómnibus</p>
-            <a href="../pages/contacto.html"><img src="../img/Servicios.jpeg" alt="Camioneta" class="camioneta"></a>
-        </div>
-        <hr>
-        <div>
-            <p>Traslado de pasajeros a bodegas seleccionadas por el cliente o por recomendación de Cuyo Travel</p>
-            <a href="../pages/contacto.html"><img src="../img/bodega.jpg" alt="bodega" class="bodega"></a>
-        </div>
-        <hr>
-        <div>
-            <p>Traslado de pasajeros a eventos públicos o privados. Retiro de los pasajeros en horarios acordados</p>
-            <a href="../pages/contacto.html"><img src="../img/eventos.jpg" alt="eventos" class="evento"></a>
+        <div class="row">
+            <div class="traslado col-6">
+                <div class="traslados">
+                    <h2>Traslado de pasajeros</h2>
+                    <p>Ofrecemos traslados de pasajeros desde y hasta la terminal de Ómnibus y/o el Aeropuerto Internacional de Mendoza</p>
+                    <img src="../img/Servicios.jpeg" alt="traslado">
+                    <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
+                </div>
+            </div>
+            <div class="traslado col-6">
+                <div class="traslados">
+                    <h2>Traslado a bodegas</h2>
+                    <p>Ofrecemos traslados a las mejores bodegas de Mendoza, a elección del pasajero o empresa, o por recomendación de Cuyo Travel</p>
+                    <img src="../img/bodega.jpg" alt="bodegas">
+                    <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
+                </div>
+            </div>
+            <div class="traslado col-6">
+                <div class="traslados">
+                    <h2>Traslado a eventos</h2>
+                    <p>Traslados personalizados a eventos privados o públicos a elección del pasajero o empresa, o por recomendación de Cuyo Travel</p>
+                    <img src="../img/eventos.jpg" alt="traslado">
+                    <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
+                </div>
+            </div>
+            <div class="traslado col-6">
+                <div class="traslados">
+                    <h2>Traslado a puntos turísticas</h2>
+                    <p>Ofrecemos también el servicio único de traslado a puntos turísticos, sin guía</p>
+                    <img src="../img/villavicencio.jpeg" alt="traslado">
+                    <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
+                </div>
+            </div>
         </div>
     </main>
 
-    <hr>
+    <!---------------------------------------------FOOTER--------------------------------------------------->
+
     <footer>
-        <img src="../img/whatsappIcono.png" alt="telefono">
-        <p>|2613055043|</p>
-        <img src="../img/googleMaps.png" alt="direccion">
-        <p>|Godoy Cruz 973, San José - Guaymallén, Mendoza|</p>
-        <img src="../img/reloj.png" alt="horarios">
-        <p>|lun a vie - 10hs a 21hs|</p>
-        <img src="../img/habilitacion.png" alt="habilitacion">
-        <p>|Licencia EX-2020-611 192598|</p>
+        <div class="container">
+            <div class="footer col-12">
+                <h3 class="info">Godoy Cruz 973 Villa Nueva, Guaymallén</h3>
+                <h3 class="info">+5492616261485</h3>
+                <h3 class="info">info@cuyotravel.tur.ar</h3>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

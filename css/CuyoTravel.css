@@ -47,6 +47,7 @@
         color: rgb(255, 255, 255);
         margin-top: 45px;
         text-shadow: 2px 2px 2px black;
+        text-align: center;
     }
 
     .logo{
@@ -72,6 +73,7 @@
         color: white;
         text-shadow: 2px 2px black
     }
+
 
 /* -------------------------------------MAIN----------------------------------------- */
 
@@ -109,7 +111,8 @@
     }
 
 .btn{
-    background-color: #d1b20c;
+    background-color: #8a557c;
+    margin: 10px;
     width: 150px;
     height: 50px;
     border: solid black;
@@ -168,3 +171,17 @@ aside{
     }
 
 
+/* -----------------------------------Servicios ------------------------------------------------------ */
+/* ------------------------------------------- ------------------------------------------------------ */
+
+    .traslados{
+        margin: 50px;
+        padding: 50px;
+        text-align: center;
+        background-color: aliceblue;
+    }
+    .traslados img{
+        width: 400px;
+        height: 350px;
+        
+    }
