@@ -1,0 +1,166 @@
+/*---------------------------------------- GENERAL --------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto&family=Rubik:wght@300;400;500&display=swap');
+
+    *{
+        font-family: 'Poppins', sans-serif;
+        padding: 0;
+        margin: 0;
+}
+
+    body{
+        display: grid;
+        grid-template-areas: 
+        "header header header header"
+        "main main main aside"
+        "main main main aside"
+        "footer footer footer footer";
+        background-image: url(../img/mendoza.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+
+/*---------------------------------------- HEADER --------------------------------------*/
+
+    header{
+        grid-area: header;
+        background-color: #8a557c;
+        box-shadow: 0px 0px 20px black;
+
+    }
+    .cabeza__arriba{  /*Lo que comprende los accesos a redes, título y el logo*/
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .redes{
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .titulo{
+        font-size: 3.5em;
+        font-weight: 1000;
+        color: rgb(255, 255, 255);
+        margin-top: 45px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .logo{
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        box-shadow: 0px 0px 10px black;
+    }
+
+    .cabeza__abajo{ /*Lo que comprende el menú. La parte "baja" de la cabecera*/
+        display: flex;
+        font-size: 1.5em;
+        justify-content: center;
+    }
+
+    .menu li{
+        list-style-type: none;
+        display: inline-block;
+    }
+    .menu li a{
+        text-decoration: none;
+        margin: 5px 50px;
+        color: white;
+        text-shadow: 2px 2px black
+    }
+
+/* -------------------------------------MAIN----------------------------------------- */
+
+    main{
+        grid-area: main;
+    }
+
+ /* --------- Sector Excursiones locales--------- */
+
+    .seccion__imagen1{
+        background-image: url(../img/puente_del_inca.jpg);
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px;
+        color: white;
+        margin: 100px 10px;
+        box-shadow: 7px 7px 7px rgb(126, 125, 125);
+    }
+
+    .seccion__imagen1 p{
+        font-size: 1.3em;
+        text-shadow: 2px 2px black;
+        
+    }
+    .seccion__imagen1 h2{
+        font-size: 2em;
+        font-weight: 1000;
+        text-shadow: 3px 2px black;
+    }
+
+    .ver__mas{
+        font-size: 2em;
+        color: blue;
+    }
+
+.btn{
+    background-color: #d1b20c;
+    width: 150px;
+    height: 50px;
+    border: solid black;
+}
+
+/* -------Sector Servicios--------- */
+
+.seccion__imagen2{
+    background-image: url(../img/servicio.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    color: white;
+    margin: 100px 10px;
+    box-shadow: 7px 7px 7px rgb(126, 125, 125);
+}
+
+.seccion__imagen2 p{
+    font-size: 1.3em;
+    text-shadow: 2px 2px black;
+    
+}
+.seccion__imagen2 h2{
+    font-size: 2em;
+    font-weight: 1000;
+    text-shadow: 3px 2px black;
+}
+
+/* ----------------------------------- ASIDE ------------------------------------------------------ */
+
+aside{
+    grid-area: aside;
+    grid-auto-flow: column;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+        grid-area: footer;
+    }
+
+
