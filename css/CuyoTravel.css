@@ -154,19 +154,17 @@ aside{
 }
 
 
-
-
-
-
-
-
-
-
-
-
+/* -----------------------------------FOOTER ------------------------------------------------------ */
 
     footer{
         grid-area: footer;
+        background-color: #7a9f20;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .info{
+        font-size: 1em;
     }
 
 
