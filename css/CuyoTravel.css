@@ -1,6 +1,6 @@
 /*---------------------------------------- GENERAL --------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto&family=Rubik:wght@300;400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto&family=Rubik:wght@300;400;500&display=swap');
 
     *{
         font-family: 'Poppins', sans-serif;
@@ -19,11 +19,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-
     }
 
+/* ------------------------------------------Página INDEX ------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
 
-/*---------------------------------------- HEADER --------------------------------------*/
+/*---------------------------------------- HEADER -------------------*/
 
     header{
         grid-area: header;
@@ -75,7 +76,7 @@
     }
 
 
-/* -------------------------------------MAIN----------------------------------------- */
+/* -------------------------------------MAIN------------------------ */
 
     main{
         grid-area: main;
@@ -110,54 +111,54 @@
         color: blue;
     }
 
-.btn{
-    background-color: #8a557c;
-    margin: 10px;
-    width: 150px;
-    height: 50px;
-    border: solid black;
+    .btn{
+        background-color: #8a557c;
+        margin: 10px;
+        width: 150px;
+        height: 50px;
+        border: solid black;
 }
 
 /* -------Sector Servicios--------- */
 
-.seccion__imagen2{
-    background-image: url(../img/servicio.jpg);
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
-    color: white;
-    margin: 100px 10px;
-    box-shadow: 7px 7px 7px rgb(126, 125, 125);
+    .seccion__imagen2{
+        background-image: url(../img/Viajes\ Nacionales.jpg);
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px;
+        color: white;
+        margin: 100px 10px;
+        box-shadow: 7px 7px 7px rgb(126, 125, 125);
 }
 
-.seccion__imagen2 p{
-    font-size: 1.3em;
-    text-shadow: 2px 2px black;
+    .seccion__imagen2 p{
+        font-size: 1.3em;
+        text-shadow: 2px 2px black;
     
 }
-.seccion__imagen2 h2{
-    font-size: 2em;
-    font-weight: 1000;
-    text-shadow: 3px 2px black;
+    .seccion__imagen2 h2{
+        font-size: 2em;
+        font-weight: 1000;
+        text-shadow: 3px 2px black;
 }
 
-/* ----------------------------------- ASIDE ------------------------------------------------------ */
+/* ----------------------------------- ASIDE --------------------------------- */
 
-aside{
-    grid-area: aside;
-    justify-content: flex-end;
+    aside{
+        grid-area: aside;
+        justify-content: flex-end;
 }
 
-.oferta{
-    width: 400px;
-    height: 600px;
-    margin: 100px 10px;
-    box-shadow: 7px 7px 7px rgb(126, 125, 125);
+    .oferta{
+        width: 400px;
+        height: 600px;
+        margin: 100px 10px 10px 100px;
+        box-shadow: 7px 7px 7px rgb(126, 125, 125);
 }
 
 
-/* -----------------------------------FOOTER ------------------------------------------------------ */
+/* -----------------------------------FOOTER ------------------------------- */
 
     footer{
         grid-area: footer;
@@ -171,8 +172,8 @@ aside{
     }
 
 
-/* -----------------------------------Servicios ------------------------------------------------------ */
-/* ------------------------------------------- ------------------------------------------------------ */
+/* -----------------------------------Página Servicios ----------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------- */
 
     .traslados{
         margin: 50px;
@@ -185,3 +186,14 @@ aside{
         height: 350px;
         
     }
+
+/* -----------------------------------Página Excursiones Locales------------------------------------------ */
+/* -------------------------------------------------------------------------------------------------- */
+
+    .excursiones__nac img{
+        width: 500px;
+        height: 700px;
+        padding: 30px 0px 30px 0px;
+}
+
+
