@@ -13,6 +13,7 @@
 <body>
     <!--------------------------------------------------- HEADER ---------------------------------------------->
     <header>
+        <!-- Parte superior del header -->
         <section class="cabeza__arriba">
             <div class="redes">
                 <a href="https://www.facebook.com/cuyotravelar" target="_blank"><img src="../img/face logo.png" alt="facebook"></a>
@@ -21,13 +22,23 @@
             <h1 class="titulo">Servicios</h1>
             <a href="../index.html"><img src="../img/loguito CUYOTRAVEL.jpg" alt="logo Cuyo Travel" class="logo"></a>
         </section>
+        <!-- Parte inferior del header -->
         <section class="cabeza__abajo">
-            <ul class="menu">
-                <li><a href="../pages/servicios.html">Servicios</a></li>
-                <li><a href="../pages/excursionesNacionales.html">Excursiones Nacionales</a></li>
-                <li><a href="../pages/excursionesLocales.html">Excursiones Locales</a></li>
-                <li><a href="../pages/contacto.html">Contáctenos</a></li>
-            </ul>
+            <nav class="navbar navbar-expand-md bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                            <a class="nav-link" href="../pages/excursionesLocales.html">Excursiones Locales</a>
+                            <a class="nav-link" href="../pages/excursionesNacionales.html">Excursiones Nacionales</a>
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </section>
     </header>
 
@@ -35,40 +46,34 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-6">
-                    <div class="traslados">
-                        <h2>Traslado de pasajeros</h2>
-                        <p>Ofrecemos traslados de pasajeros desde y hasta la terminal de Ómnibus y/o el Aeropuerto Internacional de Mendoza</p>
-                        <img src="../img/Servicios.jpeg" alt="traslado">
-                        <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
-                    </div>
+                <div class="traslados col-4">
+                    <h2>Traslado de pasajeros</h2>
+                    <p>Ofrecemos traslados de pasajeros desde y hasta la terminal de Ómnibus y/o el Aeropuerto Internacional de Mendoza</p>
+                    <img src="../img/Servicios.jpeg" alt="traslado">
+                    <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
                 </div>
-                <div class="col-6">
-                    <div class="traslados">
-                        <h2>Traslado a bodegas</h2>
-                        <p>Ofrecemos traslados a las mejores bodegas de Mendoza, a elección del pasajero o empresa, o por recomendación de Cuyo Travel</p>
-                        <img src="../img/bodega.jpg" alt="bodegas">
-                        <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
-                    </div>
+
+                <div class="traslados col-4">
+                    <h2>Traslado a bodegas</h2>
+                    <p>Ofrecemos traslados a las mejores bodegas de Mendoza, a elección del pasajero o empresa, o por recomendación de Cuyo Travel</p>
+                    <img src="../img/bodega.jpg" alt="bodegas">
+                    <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
                 </div>
-                <div class="col-6">
-                    <div class="traslados">
-                        <h2>Traslado a eventos</h2>
-                        <p>Traslados personalizados a eventos privados o públicos a elección del pasajero o empresa, o por recomendación de Cuyo Travel</p>
-                        <img src="../img/eventos.jpg" alt="traslado">
-                        <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
-                    </div>
+
+                <div class="traslados col-4">
+                    <h2>Traslado a eventos</h2>
+                    <p>Traslados personalizados a eventos privados o públicos a elección del pasajero o empresa, o por recomendación de Cuyo Travel</p>
+                    <img src="../img/eventos.jpg" alt="traslado">
+                    <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
                 </div>
-                <div class="col-6">
-                    <div class="traslados">
-                        <h2>Traslado a puntos turísticas</h2>
-                        <p>Ofrecemos también el servicio único de traslado a puntos turísticos, sin guía</p>
-                        <img src="../img/villavicencio.jpeg" alt="traslado">
-                        <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
-                    </div>
+
+                <div class="traslados col-4">
+                    <h2>Traslado a puntos turísticas</h2>
+                    <p>Ofrecemos también el servicio único de traslado a puntos turísticos, sin guía</p>
+                    <img src="../img/villavicencio.jpeg" alt="traslado">
+                    <a href="../pages/contacto.html"><button type="button" class="btn btn-secondary">CONTRATAR</button></a>
                 </div>
             </div>
-
         </div>
     </main>
 

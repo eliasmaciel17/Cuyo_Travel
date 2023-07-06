@@ -22,10 +22,7 @@
         background-attachment: fixed;
     }
 
-/* ------------------------------------------Página INDEX ------------------------------------------------- */
-/* --------------------------------------------------------------------------------------------------------- */
-
-/*---------------------------------------- HEADER -------------------*/
+    /*------------------- HEADER -------------------*/
 
     header{
         grid-area: header;
@@ -39,6 +36,7 @@
     }
 
     .redes{
+        height: 100px;
         display: inline-block;
         margin: 5px;
     }
@@ -66,7 +64,16 @@
         justify-content: center;
     }
 
-    .menu li{
+    nav div{
+        background-color: #8a557c;
+    }
+
+    .collapse div a{
+        color: white;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    /* .menu li{
         list-style-type: none;
         display: inline-block;
     }
@@ -75,10 +82,24 @@
         margin: 5px 50px;
         color: white;
         text-shadow: 2px 2px black
+    } */
+
+    /* ---------------------------FOOTER ------------------------------- */
+
+    footer{
+        grid-area: footer;
+        background-color: #7a9f20;
+        text-align: center;
+        padding: 30px;
     }
 
+    .info{
+        font-size: 1em;
+    }
 
-/* -------------------------------------MAIN------------------------ */
+/* ------------------------------------------Página INDEX ------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+
 
     main{
         grid-area: main;
@@ -169,27 +190,13 @@
         border: solid black;
 }
 
-/* -----------------------------------FOOTER ------------------------------- */
-
-    footer{
-        grid-area: footer;
-        background-color: #7a9f20;
-        text-align: center;
-        padding: 30px;
-    }
-
-    .info{
-        font-size: 1em;
-    }
-
 
 /* -----------------------------------Página Servicios ----------------------------------------------- */
 /* -------------------------------------------------------------------------------------------------- */
 
     .traslados{
-        width: 600px;
+        width: 500px;
         margin: 50px;
-        padding: 50px;
         text-align: center;
         background-color: aliceblue;
     }
@@ -205,32 +212,21 @@
     .oferta_nacional img{
         width: 400px;
         height: 600px;
-        padding: 20px;
+        padding: 50px 10px;
         transition: all 300ms;
 }
     .oferta_nacional img:hover{
-        transform: scale(1.7);
+        transform: scale(1.4);
 }
 
 /* -----------------------------------Página Excursiones Locales------------------------------------------ */
 /* -------------------------------------------------------------------------------*/
 
-
     .locales{
         width: 600px;
-        margin: 50px;
-        padding: 50px;
+        margin: 20px;
         text-align: center;
         background-color: aliceblue;
-}
-    .locales iframe{
-        width: 500px;   
-        height: 350px;
-        transition: all 300ms;
-}
-
-    .locales iframe:hover{
-        transform: scale(1.5)
 }
 
 /* ------------------------------------------Página Contacto------------------------------------------------- */
@@ -263,3 +259,15 @@
         padding: 10px 0px 10px 0px;
     }
 
+    /* *******RESPONSIVE******** */
+
+    @media (max-width: 480px){
+        .cabeza__arriba{
+            width: 944px;
+            height: 170px;
+        }
+        .cabeza__abajo{
+            justify-content: flex-start;
+        }
+        
+    }
