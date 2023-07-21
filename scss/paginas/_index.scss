@@ -1,0 +1,86 @@
+main{
+    grid-area: main;
+}
+
+
+/* --------- Sector Excursiones locales--------- */
+
+.seccion__imagen1{
+    background-image: url(../img/puente_del_inca.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    color: white;
+    margin: 100px 10px;
+    box-shadow: 7px 7px 7px rgb(126, 125, 125);
+
+    p{
+        font-size: 1.3em;
+        text-shadow: 2px 2px black;   
+    }
+    h2{
+        font-size: 2em;
+        font-weight: 1000;
+        text-shadow: 3px 2px black;
+    }
+}
+
+/* -------Viajes Nacionales--------- */
+
+.seccion__imagen2{
+    background-image: url(../img/Viajes\ Nacionales.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    color: white;
+    margin: 100px 10px;
+    box-shadow: 7px 7px 7px rgb(126, 125, 125);
+
+    p{
+        font-size: 1.3em;
+        text-shadow: 2px 2px black;
+    }
+    h2{
+        font-size: 2em;
+        font-weight: 1000;
+        text-shadow: 3px 2px black;
+    }
+}
+
+/* -------Servicios--------- */
+
+.seccion__imagen3{
+    background-image: url(../img/Servicios.jpeg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    color: white;
+    margin: 100px 10px;
+    box-shadow: 7px 7px 7px rgb(126, 125, 125);
+
+    p{
+        font-size: 1.3em;
+        text-shadow: 2px 2px black;
+    }
+    h2{
+        font-size: 2em;
+        font-weight: 1000;
+        text-shadow: 3px 2px black;
+    }
+}
+
+.ver__mas{
+    font-size: 2em;
+    color: blue;
+}
+
+.btn{
+    background-color: $colorPrincipal;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    border: solid black;
+}

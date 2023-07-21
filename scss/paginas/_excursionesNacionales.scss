@@ -1,0 +1,11 @@
+.oferta_nacional img{
+    width: 400px;
+    height: 600px;
+    padding: 50px 10px;
+    transition: all 300ms;
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.4);
+    }
+}

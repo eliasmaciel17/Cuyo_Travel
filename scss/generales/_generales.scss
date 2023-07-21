@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto&family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "main main main main"
+    "footer footer footer footer";
+    background-color: rgb(191, 233, 233);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div h1{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: $colorFondo;
+    font-weight: bold;
+    font-size: $tamanioh1;
+}
+
+@if $colorFondoSecundario == oscuro {
+    body{
+        background-color: rgb(31, 30, 30);
+    }
+    
+}
+@else if $colorFondoSecundario == navidad{
+    body{
+        background-color: $colorFondoNavidad;
+    }
+}
