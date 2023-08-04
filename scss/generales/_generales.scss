@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
 }
-
 body{
     display: grid;
     grid-template-areas: 
@@ -18,7 +17,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-
 div h1{
     text-align: center;
     padding: 5px;
@@ -27,12 +25,10 @@ div h1{
     font-weight: bold;
     font-size: $tamanioh1;
 }
-
 @if $colorFondoSecundario == oscuro {
     body{
         background-color: rgb(31, 30, 30);
-    }
-    
+    } 
 }
 @else if $colorFondoSecundario == navidad{
     body{

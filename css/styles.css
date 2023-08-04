@@ -28,7 +28,7 @@ header {
   background-color: #8a557c;
   box-shadow: 0px 0px 20px black;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 header .redes {
   height: 100px;
@@ -111,7 +111,7 @@ main {
 
 /* -------Viajes Nacionales--------- */
 .seccion__imagen2 {
-  background-image: url(../img/Viajes\ Nacionales.jpg);
+  background-image: url(../img/viajesNacionales.jpg);
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -153,7 +153,6 @@ main {
 
 .ver__mas {
   font-size: 2em;
-  color: blue;
 }
 
 .btn {
@@ -219,6 +218,14 @@ main {
   padding: 10px 0px 10px 0px;
 }
 
+.enviar {
+  background-color: #8a557c;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  margin: 10px;
+}
+
 @media (max-width: 480px) {
   header .logoCuyoTravel {
     padding: 3px;
@@ -229,12 +236,7 @@ main {
   header div {
     padding: 50px;
   }
-  header .redes {
-    height: 50px;
-    width: 50px;
-    padding: 3px;
-  }
-  header .redes img {
+  header img {
     width: 50px;
   }
   .oferta_nacional img {
